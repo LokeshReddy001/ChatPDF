@@ -41,17 +41,3 @@ To run this application, follow these steps:
 
 - **`app.py`:** Main application file containing the Streamlit interface and chatbot logic.
 - **`requirements.txt`:** File listing all required dependencies for the application.
-
-## Additional Notes
-
-- The application creates a pickle file to cache processed text chunks for faster retrieval.
-- Ensure proper file formats for PDF uploads to extract text effectively.
-- Customize and extend the application by modifying the chatbot's logic or integrating with different language models.
-
-## Contributors
-
-- [Your Name or Organization](link_to_profile_or_website) - Role
-
-## License
-
-[Specify the license for your project, if applicable.]
