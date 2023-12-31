@@ -1,3 +1,6 @@
+# Author: PLS Lokesh Reddy
+# Github repo: https://github.com/LokeshReddy001/ChatPDF/tree/main
+
 import streamlit as st
 from langchain.text_splitter import RecursiveCharacterTextSplitter
 from langchain.vectorstores import FAISS
