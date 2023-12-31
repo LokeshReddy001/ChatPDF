@@ -20,16 +20,36 @@ To run this application, follow these steps:
     cd ChatPDF
     ```
 
-2. **Install dependencies:**
+2. **Create and activate a virtual environment (optional but recommended):**
+    ```bash
+    python -m venv env
+    source env/bin/activate  # On Windows: .\env\Scripts\activate
+    ```
+
+3. **Install dependencies:**
     ```bash
     pip install -r requirements.txt
     ```
 
-3. **Run the application:**
+4. **Set the Hugging Face API token as an environment variable:**
+
+    - If you haven't already, sign up on the Hugging Face website and get your API token.
+    
+    - Set the environment variable by replacing `"YOUR_HUGGINGFACE_API_KEY"` with your actual API key in the terminal:
+        ```bash
+        export HUGGINGFACEHUB_API_TOKEN="YOUR_HUGGINGFACE_API_KEY"
+        ```
+    
+    - For Windows users, set the environment variable using:
+        ```bash
+        set HUGGINGFACEHUB_API_TOKEN="YOUR_HUGGINGFACE_API_KEY"
+        ```
+
+5. **Run the application:**
     ```bash
     streamlit run app.py
     ```
-
+    
 ## Usage
 
 1. Upon running the application, you'll be presented with an interface to upload a PDF file. 
