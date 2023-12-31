@@ -17,7 +17,7 @@ To run this application, follow these steps:
 1. **Clone the repository:**
     ```bash
     git clone <repository_url>
-    cd pdf-chatbot
+    cd ChatPDF
     ```
 
 2. **Install dependencies:**
