@@ -32,7 +32,7 @@ To run this application, follow these steps:
 
 ## Usage
 
-1. Upon running the application, you'll be presented with an interface to upload a PDF file.
+1. Upon running the application, you'll be presented with an interface to upload a PDF file. 
 2. Upload a PDF file containing text.
 3. Ask questions related to the content of the uploaded PDF using the chat input.
 4. The chatbot will extract information from the PDF and provide relevant answers using the language model.
@@ -41,3 +41,7 @@ To run this application, follow these steps:
 
 - **`app.py`:** Main application file containing the Streamlit interface and chatbot logic.
 - **`requirements.txt`:** File listing all required dependencies for the application.
+
+## Public Link
+
+- Access the application using this public link: [PDF Chatbot Application](https://chatpdf-v1.streamlit.app)
